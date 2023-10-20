@@ -1,0 +1,17 @@
+{
+  "name": "zorascript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-svelte": "^2.34.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
