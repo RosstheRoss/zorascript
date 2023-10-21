@@ -31,7 +31,7 @@ export default defineConfig({
 						type: "image/png",
 					}
 				],
-				id: "."
+				id: "oracle-client",
 			},
 			registerType: 'autoUpdate',
 			workbox: {
