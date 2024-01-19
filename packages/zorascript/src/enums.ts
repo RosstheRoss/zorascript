@@ -15,8 +15,8 @@ const enum GameRegion {
  * Specifies the specific Oracle game
  */
 const enum Game {
-    Ages = "Oracle of Ages",
-    Seasons = "Oracle of Seasons"
+    Ages = 0,
+    Seasons = 1
 }
 
 const enum Animal {

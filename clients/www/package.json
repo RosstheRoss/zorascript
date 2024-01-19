@@ -3,6 +3,7 @@
   "description": "The actual website",
   "version": "0.0.1",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && cp .svelte-kit/output/server/sw.js.map .svelte-kit/output/server/workbox-*.map build/",
@@ -15,7 +16,6 @@
   "devDependencies": {
     "@skeletonlabs/skeleton": "2.7.1",
     "@skeletonlabs/tw-plugin": "0.3.1",
-    "@sveltejs/adapter-auto": "^3.1.0",
     "@sveltejs/adapter-static": "^3.0.1",
     "@sveltejs/kit": "^2.4.0",
     "@sveltejs/vite-plugin-svelte": "^3.0.1",
