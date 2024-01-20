@@ -5,7 +5,7 @@
  * 
  * In most cases NA and EU are the same, but there are some small differences mainly involving name encoding.
  */
-const enum GameRegion {
+const enum Region {
     Japan = "JP",
     NorthAmerica = "NA",
     Europe = "EU"
@@ -19,7 +19,7 @@ const enum Game {
     Seasons = 1
 }
 
-const enum Animal {
+const enum AnimalFriend {
     Ricky = 0x0b,
     Dimitri = 0x0c,
     Moosh = 0x0d   

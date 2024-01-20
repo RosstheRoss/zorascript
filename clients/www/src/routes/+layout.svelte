@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import '../app.postcss';
 	import { AppShell, AppBar, LightSwitch, initializeStores } from '@skeletonlabs/skeleton';
 
@@ -22,12 +23,16 @@
 			<svelte:fragment slot="lead">
 				<LightSwitch />
 			</svelte:fragment>
-			<a href="#">Zelda: Oracle Password Generator</a>
+			<a href="{base}/">Zelda: Oracle Password Generator</a>
 			<svelte:fragment slot="trail">
-				<a href="#">TODO: SOURCE CODE</a>
+				<a href="https://github.com/RosstheRoss/zorascript">TODO: SOURCE CODE</a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />
 </AppShell>
+
+{#await import('$lib/components/ReloadPrompt.svelte') then { default: ReloadPrompt }}
+  <ReloadPrompt />
+{/await}

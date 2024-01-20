@@ -1,6 +1,6 @@
 {
-  "name": "website",
-  "description": "The actual website",
+  "name": "zorascript-web",
+  "description": "A Svelte interface for ZoraScript",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",
