@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import '../app.postcss';
-	import { AppShell, AppBar, LightSwitch, initializeStores } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, LightSwitch, initializeStores, Toast } from '@skeletonlabs/skeleton';
 
 	import { pwaInfo } from 'virtual:pwa-info';
 
@@ -14,6 +14,8 @@
   <!-- eslint-disable-next-line svelte/no-at-html-tags VitePWA can probably be trusted -->
   {@html webManifest}
 </svelte:head>
+
+<Toast />
 
 <!-- App Shell -->
 <AppShell>
