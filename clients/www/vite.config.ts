@@ -31,7 +31,7 @@ export default defineConfig({
 						type: "image/png",
 					}
 				],
-				id: "oracle-client",
+				id: "zorascript",
 			},
 			registerType: 'autoUpdate',
 			workbox: {
