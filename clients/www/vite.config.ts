@@ -22,7 +22,7 @@ export default defineConfig({
 				short_name: 'Oracle Client',
 				theme_color: '#3EBCC5',
 				description: "A web-based client for the Oracle of Ages/Seasons password system",
-				display_override: ["window-controls-overlay", "standalone", "minimal-ui"],
+				display_override: ["standalone", "minimal-ui"],
 				display: "fullscreen",
 				icons: [
 					{
