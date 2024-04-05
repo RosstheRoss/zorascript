@@ -1,16 +1,19 @@
 {
   "name": "zorascript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-wasm": "wasm-pack build ./libs/zora-rs",
+    "build-tauri": "tauri build"
   },
   "keywords": [],
   "author": "Matt Strapp <matt@mattstrapp.net>",
   "private": true,
   "devDependencies": {
+    "@tauri-apps/cli": "^1.5.11",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.35.1",
     "prettier": "^3.2.5",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.4",
+    "wasm-pack": "^0.12.1"
   }
 }

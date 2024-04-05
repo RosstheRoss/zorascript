@@ -5,10 +5,10 @@ import { SvelteKitPWA } from '@vite-pwa/sveltekit';
 
 export default defineConfig({
 	build: {
-		sourcemap: true
+		// sourcemap: true
 	},
 	css: {
-		devSourcemap: false
+		devSourcemap: true
 	},
 	plugins: [
 		sveltekit(),
