@@ -11,8 +11,8 @@
 </script>
 
 <svelte:head>
-  <!-- eslint-disable-next-line svelte/no-at-html-tags VitePWA can probably be trusted -->
-  {@html webManifest}
+	<!-- eslint-disable-next-line svelte/no-at-html-tags VitePWA can probably be trusted -->
+	{@html webManifest}
 </svelte:head>
 
 <Toast />
@@ -36,5 +36,5 @@
 </AppShell>
 
 {#await import('$lib/components/ReloadPrompt.svelte') then { default: ReloadPrompt }}
-  <ReloadPrompt />
+	<ReloadPrompt />
 {/await}

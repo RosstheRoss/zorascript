@@ -21,17 +21,17 @@ export default defineConfig({
 				name: 'Oracle Client',
 				short_name: 'Oracle Client',
 				theme_color: '#3EBCC5',
-				description: "A web-based client for the Oracle of Ages/Seasons password system",
-				display_override: ["standalone", "minimal-ui"],
-				display: "fullscreen",
+				description: 'A web-based client for the Oracle of Ages/Seasons password system',
+				display_override: ['standalone', 'minimal-ui'],
+				display: 'fullscreen',
 				icons: [
 					{
-						src: "img/pwa-192x192.png",
-						sizes: "192x192",
-						type: "image/png",
+						src: 'img/pwa-192x192.png',
+						sizes: '192x192',
+						type: 'image/png'
 					}
 				],
-				id: "zorascript",
+				id: 'zorascript'
 			},
 			registerType: 'autoUpdate',
 			workbox: {
