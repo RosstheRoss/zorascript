@@ -31,6 +31,10 @@ importers:
         version: 0.12.1
 
   clients/www:
+    dependencies:
+      zora-rs:
+        specifier: workspace:*
+        version: link:../../libs/zora-rs/pkg
     devDependencies:
       '@skeletonlabs/skeleton':
         specifier: 2.9.0
@@ -107,6 +111,8 @@ importers:
       vite-plugin-tailwind-purgecss:
         specifier: 0.2.1
         version: 0.2.1(vite@5.2.8)
+
+  libs/zora-rs/pkg: {}
 
 packages:
 
