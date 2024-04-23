@@ -1,8 +1,9 @@
 {
   "name": "zorascript",
   "scripts": {
-    "build-wasm": "wasm-pack build ./libs/zora-rs",
-    "build-tauri": "env TAURI=true tauri build"
+    "build:tauri": "env TAURI=true tauri build",
+    "build:wasm": "wasm-pack build ./libs/zora-rs",
+    "build:web": "pnpm -F zorascript-web build"
   },
   "keywords": [],
   "author": "Matt Strapp <matt@mattstrapp.net>",
