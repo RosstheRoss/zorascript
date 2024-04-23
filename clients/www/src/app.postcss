@@ -3,7 +3,15 @@
 @tailwind utilities;
 @tailwind variants;
 
+@font-face {
+	font-family: "Zelda Oracle";
+	src: url("/font/ZeldaOracles.woff2") format("woff2");
+}
 html,
 body {
 	@apply h-full overflow-hidden;
+}
+
+:root [data-theme="wintry"] {
+	--theme-font-family-base: "Zelda Oracle";
 }
