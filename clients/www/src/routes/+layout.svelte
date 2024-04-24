@@ -1,4 +1,5 @@
 <script lang="ts">
+	import "iconify-icon";
 	import { base } from '$app/paths';
 	import '../app.postcss';
 	import { AppShell, AppBar, LightSwitch, initializeStores, Toast } from '@skeletonlabs/skeleton';
@@ -27,7 +28,9 @@
 			</svelte:fragment>
 			<a href="{base}/">Zelda: Oracle Password Generator</a>
 			<svelte:fragment slot="trail">
-				<a href="https://github.com/RosstheRoss/zorascript">TODO: SOURCE CODE</a>
+				<a href="https://github.com/RosstheRoss/zorascript">
+					<iconify-icon icon="mdi:github" height="auto" />
+				</a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>

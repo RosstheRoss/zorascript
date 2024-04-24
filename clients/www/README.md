@@ -36,3 +36,7 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+# Acknowledgements
+
+This project utilizes the FontStruction [Zelda Oracles](https://fontstruct.com/fontstructions/show/1984652) by “aztecwarrior28” is licensed under a [Creative Commons Attribution Share Alike license](http://creativecommons.org/licenses/by-sa/3.0/).
