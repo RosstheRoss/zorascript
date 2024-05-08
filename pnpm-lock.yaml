@@ -114,8 +114,6 @@ importers:
         specifier: 0.2.1
         version: 0.2.1(vite@5.2.10(@types/node@20.12.6)(terser@5.30.4))
 
-  libs/zora-rs/pkg: {}
-
 packages:
 
   '@aashutoshrathi/word-wrap@1.2.6':
