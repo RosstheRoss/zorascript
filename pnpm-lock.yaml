@@ -96,8 +96,8 @@ importers:
         specifier: ^3.8.0
         version: 3.8.0(@babel/core@7.24.5)(postcss@8.4.38)(svelte@4.2.17)
       svelte-persisted-store:
-        specifier: ^0.9.4
-        version: 0.9.4(svelte@4.2.17)
+        specifier: ^0.11.0
+        version: 0.11.0(svelte@4.2.17)
       tailwindcss:
         specifier: 3.4.3
         version: 3.4.3
@@ -4839,8 +4839,8 @@ packages:
       svelte: 4.2.17
     dev: true
 
-  /svelte-persisted-store@0.9.4(svelte@4.2.17):
-    resolution: {integrity: sha512-Em3cDSsd3fAkQhvNc4+V7ZT86GnIkFrlcKK/oNSHFhF5fbNoavdxvtTZ0pCF2ueG/Oqg5kSbAFxn0rkeICpHUA==}
+  /svelte-persisted-store@0.11.0(svelte@4.2.17):
+    resolution: {integrity: sha512-9RgJ5DrawGyyfK22A80cfu8Jose3CV8YjEZKz9Tn94rQ0tWyEmYr+XI+wrVF6wjRbW99JMDSVcFRiM3XzVJj/w==}
     engines: {node: '>=0.14'}
     peerDependencies:
       svelte: ^3.48.0 || ^4.0.0 || ^5.0.0-next.0
