@@ -18,8 +18,8 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.4.0)
       eslint-plugin-svelte:
-        specifier: ^2.38.0
-        version: 2.39.0(eslint@9.4.0)(svelte@4.2.18)
+        specifier: ^2.39.2
+        version: 2.39.2(eslint@9.4.0)(svelte@4.2.18)
       prettier:
         specifier: ^3.3.1
         version: 3.3.1
@@ -75,8 +75,8 @@ importers:
         specifier: ^9.1.0
         version: 9.1.0(eslint@9.4.0)
       eslint-plugin-svelte:
-        specifier: ^2.38.0
-        version: 2.39.0(eslint@9.4.0)(svelte@4.2.18)
+        specifier: ^2.39.2
+        version: 2.39.2(eslint@9.4.0)(svelte@4.2.18)
       iconify-icon:
         specifier: ^2.1.0
         version: 2.1.0
@@ -3003,8 +3003,8 @@ packages:
       eslint: 9.4.0
     dev: true
 
-  /eslint-plugin-svelte@2.39.0(eslint@9.4.0)(svelte@4.2.18):
-    resolution: {integrity: sha512-FXktBLXsrxbA+6ZvJK2z/sQOrUKyzSg3fNWK5h0reSCjr2fjAsc9ai/s/JvSl4Hgvz3nYVtTIMwarZH5RcB7BA==}
+  /eslint-plugin-svelte@2.39.2(eslint@9.4.0)(svelte@4.2.18):
+    resolution: {integrity: sha512-liJMHhWnNqnimPpw0lSKiG/fQXla+ySp0NjXirB6l9A9LrBY2AjUfL0HMKkBEil5PaFn5F2rp6EqW85NDjRdSA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
@@ -3015,7 +3015,6 @@ packages:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.4.0)
       '@jridgewell/sourcemap-codec': 1.4.15
-      debug: 4.3.4
       eslint: 9.4.0
       eslint-compat-utils: 0.5.0(eslint@9.4.0)
       esutils: 2.0.3
@@ -3028,7 +3027,6 @@ packages:
       svelte: 4.2.18
       svelte-eslint-parser: 0.36.0(svelte@4.2.18)
     transitivePeerDependencies:
-      - supports-color
       - ts-node
     dev: true
 
