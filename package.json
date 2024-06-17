@@ -12,7 +12,7 @@
     "@tauri-apps/cli": "^1.5.13",
     "eslint": "^9.4.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-svelte": "^2.39.3",
+    "eslint-plugin-svelte": "^2.39.4",
     "prettier": "^3.3.2",
     "typescript": "^5.4.5",
     "wasm-pack": "^0.12.1"
