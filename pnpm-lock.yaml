@@ -54,8 +54,8 @@ importers:
         specifier: 0.5.13
         version: 0.5.13(tailwindcss@3.4.4)
       '@types/node':
-        specifier: 20.14.4
-        version: 20.14.4
+        specifier: 20.14.5
+        version: 20.14.5
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.13.1
         version: 7.13.1(@typescript-eslint/parser@7.13.1)(eslint@9.5.0)(typescript@5.4.5)
@@ -109,7 +109,7 @@ importers:
         version: 5.4.5
       vite:
         specifier: ^5.3.1
-        version: 5.3.1(@types/node@20.14.4)
+        version: 5.3.1(@types/node@20.14.5)
       vite-plugin-tailwind-purgecss:
         specifier: 0.3.3
         version: 0.3.3(tailwindcss@3.4.4)(vite@5.3.1)
@@ -1946,7 +1946,7 @@ packages:
       sirv: 2.0.4
       svelte: 4.2.18
       tiny-glob: 0.2.9
-      vite: 5.3.1(@types/node@20.14.4)
+      vite: 5.3.1(@types/node@20.14.5)
     dev: true
 
   /@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.1)(svelte@4.2.18)(vite@5.3.1):
@@ -1960,7 +1960,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 3.1.1(svelte@4.2.18)(vite@5.3.1)
       debug: 4.3.4
       svelte: 4.2.18
-      vite: 5.3.1(@types/node@20.14.4)
+      vite: 5.3.1(@types/node@20.14.5)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1979,7 +1979,7 @@ packages:
       magic-string: 0.30.10
       svelte: 4.2.18
       svelte-hmr: 0.16.0(svelte@4.2.18)
-      vite: 5.3.1(@types/node@20.14.4)
+      vite: 5.3.1(@types/node@20.14.5)
       vitefu: 0.2.5(vite@5.3.1)
     transitivePeerDependencies:
       - supports-color
@@ -2125,8 +2125,8 @@ packages:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
     dev: true
 
-  /@types/node@20.14.4:
-    resolution: {integrity: sha512-1ChboN+57suCT2t/f8lwtPY/k3qTpuD/qnqQuYoBg6OQOcPyaw7PiZVdGpaZYAvhDDtqrt0oAaM8+oSu1xsUGw==}
+  /@types/node@20.14.5:
+    resolution: {integrity: sha512-aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -5207,7 +5207,7 @@ packages:
       debug: 4.3.4
       fast-glob: 3.3.2
       pretty-bytes: 6.1.1
-      vite: 5.3.1(@types/node@20.14.4)
+      vite: 5.3.1(@types/node@20.14.5)
       workbox-build: 7.1.0
       workbox-window: 7.1.0
     transitivePeerDependencies:
@@ -5226,10 +5226,10 @@ packages:
       purgecss: 6.0.0
       purgecss-from-html: 6.0.0
       tailwindcss: 3.4.4
-      vite: 5.3.1(@types/node@20.14.4)
+      vite: 5.3.1(@types/node@20.14.5)
     dev: true
 
-  /vite@5.3.1(@types/node@20.14.4):
+  /vite@5.3.1(@types/node@20.14.5):
     resolution: {integrity: sha512-XBmSKRLXLxiaPYamLv3/hnP/KXDai1NDexN0FpkTaZXTfycHvkRHoenpgl/fvuK/kPbB6xAgoyiryAhQNxYmAQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5257,7 +5257,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.14.4
+      '@types/node': 20.14.5
       esbuild: 0.21.5
       postcss: 8.4.38
       rollup: 4.17.2
@@ -5273,7 +5273,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.3.1(@types/node@20.14.4)
+      vite: 5.3.1(@types/node@20.14.5)
     dev: true
 
   /wasm-pack@0.12.1:
