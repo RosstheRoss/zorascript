@@ -9,7 +9,7 @@
   "author": "Matt Strapp <matt@mattstrapp.net>",
   "private": true,
   "devDependencies": {
-    "@tauri-apps/cli": "^1.5.13",
+    "@tauri-apps/cli": "^1.6.0",
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.41.0",
