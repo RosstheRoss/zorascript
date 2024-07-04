@@ -27,8 +27,8 @@ importers:
         specifier: ^5.5.3
         version: 5.5.3
       wasm-pack:
-        specifier: ^0.12.1
-        version: 0.12.1
+        specifier: ^0.13.0
+        version: 0.13.0
 
   clients/www:
     devDependencies:
@@ -2930,8 +2930,8 @@ packages:
       vite:
         optional: true
 
-  wasm-pack@0.12.1:
-    resolution: {integrity: sha512-dIyKWUumPFsGohdndZjDXRFaokUT/kQS+SavbbiXVAvA/eN4riX5QNdB6AhXQx37zNxluxQkuixZUgJ8adKjOg==}
+  wasm-pack@0.13.0:
+    resolution: {integrity: sha512-AmboGZEnZoIcVCzSlkLEmNFEqJN+IwgshJ5S7pi30uNUTce4LvWkifQzsQRxnWj47G8gkqZxlyGlyQplsnIS7w==}
     hasBin: true
 
   webidl-conversions@4.0.2:
@@ -5973,7 +5973,7 @@ snapshots:
     optionalDependencies:
       vite: 5.3.3(@types/node@20.14.9)(terser@5.31.0)
 
-  wasm-pack@0.12.1:
+  wasm-pack@0.13.0:
     dependencies:
       binary-install: 1.1.0
     transitivePeerDependencies:
