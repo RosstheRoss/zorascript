@@ -40,7 +40,7 @@ jobs:
         run: pnpm -F zorascript-web build
       - name: Upload Artifacts
         if: ${{ github.ref == 'refs/heads/master' }}
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           # this should match the `pages` option in your adapter-static options
           path: 'clients/www/build/'
