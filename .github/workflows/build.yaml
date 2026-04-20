@@ -26,7 +26,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
       - name: Install pnpm
-        uses: pnpm/action-setup@v5
+        uses: pnpm/action-setup@v6
         with:
           version: 9
       - name: Install Node.js
@@ -40,7 +40,7 @@ jobs:
         run: pnpm -F zorascript-web build
       - name: Upload Artifacts
         if: ${{ github.ref == 'refs/heads/master' }}
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           # this should match the `pages` option in your adapter-static options
           path: 'clients/www/build/'
